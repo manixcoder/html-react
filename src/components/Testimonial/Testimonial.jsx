@@ -10,7 +10,7 @@ const Testimonial = () => {
         nav: true,
         dots: true,
         autoplay: true,
-        autoplayTimeout: 2000,
+        autoplayTimeout: 5000,
         responsive: {
             0: {
                 items: 1,

@@ -11,23 +11,23 @@ import Team from './Team/Team'
 import Testimonial from './Testimonial/Testimonial'
 import Footer from './Footer/Footer'
 
+
 const Home = () => {
-  return (
-    <>
-    
-      <ToppBar/>
-      <Navbar/>
-      <About/>
-      <Service/>
-      <Destination/>
-      <Package/>
-      <Booking/>
-      <Process/>
-      <Team/>
-      <Testimonial/>
-      <Footer/>
-    </>
-  )
+    return (
+        <>
+            <ToppBar />
+            <Navbar />
+            <About />
+            <Service />
+            <Destination />
+            <Package />
+            <Booking />
+            <Process />
+            <Team />
+            <Testimonial />
+            <Footer />
+        </>
+    )
 }
 
 export default Home
