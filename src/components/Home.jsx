@@ -10,24 +10,25 @@ import Process from './Process/Process'
 import Team from './Team/Team'
 import Testimonial from './Testimonial/Testimonial'
 import Footer from './Footer/Footer'
+import Spinner from './Spinner/spinner'
 
 const Home = () => {
-  return (
-    <>
-    
-      <ToppBar/>
-      <Navbar/>
-      <About/>
-      <Service/>
-      <Destination/>
-      <Package/>
-      <Booking/>
-      <Process/>
-      <Team/>
-      <Testimonial/>
-      <Footer/>
-    </>
-  )
+    return (
+        <>
+            <Spinner />
+            <ToppBar />
+            <Navbar />
+            <About />
+            <Service />
+            <Destination />
+            <Package />
+            <Booking />
+            <Process />
+            <Team />
+            <Testimonial />
+            <Footer />
+        </>
+    )
 }
 
 export default Home
