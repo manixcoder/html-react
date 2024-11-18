@@ -10,12 +10,11 @@ import Process from './Process/Process'
 import Team from './Team/Team'
 import Testimonial from './Testimonial/Testimonial'
 import Footer from './Footer/Footer'
-import Spinner from './Spinner/spinner'
+
 
 const Home = () => {
     return (
         <>
-            <Spinner />
             <ToppBar />
             <Navbar />
             <About />
